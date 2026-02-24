@@ -1,0 +1,15 @@
+{
+  "name": "access-control-vuln-demo",
+  "version": "1.0.0",
+  "description": "Case-sensitivity demo for Express access control",
+  "main": "access_control_vulnerability_fixed.js",
+  "scripts": {
+    "start:vuln": "node access_control_vulnerability_vulnerable.js",
+    "start:fixed": "node access_control_vulnerability_fixed.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "author": "",
+  "license": "MIT"
+}

@@ -1,0 +1,8 @@
+ * Serving Flask app 'too_much_logging-fix'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[33mPress CTRL+C to quit[0m
+ERROR:root:Customer made a purchase with missing cc_number: *************-1111
+127.0.0.1 - - [12/Feb/2026 04:52:40] "POST /make_purchase HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Feb/2026 04:52:40] "POST /make_purchase HTTP/1.1" 200 -
