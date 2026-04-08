@@ -1,4 +1,4 @@
-# Practical_3_Codes
+# Practical_2_Codes
 
 This repository contains example vulnerable code and fixed versions used for Practical 3 testing exercises.
 
